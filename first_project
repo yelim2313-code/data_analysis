@@ -9,4 +9,8 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 # 1. Load & Assess Data
-df = pd.read_csv("")
+df = pd.read_csv("data/esg_financial_dataset.csv")
+print(f"Shape: {df.shape}")
+print(f"Rows: {df.shape[0]}")
+print(f"Columns: {df.shape[1]}")
+
